@@ -135,7 +135,6 @@ ul ,li {
 }
 
 #footer .footer-content .footer-menu p {
-  display: flex;
 	font-weight: bold;
 	text-transform: uppercase;
 	color: #919496;
@@ -207,4 +206,21 @@ ul ,li {
 	width: auto;
 	display: inline-block;
 	margin-left: 10px;
+}
+
+
+/* Responsividade */
+@media screen and (max-width:768px){
+  body{
+    width: 110%;
+    padding: 0;
+    border: 0;
+  }
+}
+@media screen and (min-width:320px){
+  body{
+    width: 110%;
+    border: 0;
+    padding: 0;
+  }
 }
